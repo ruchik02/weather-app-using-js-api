@@ -5,5 +5,7 @@ weather app using javascript api
 
 https://user-images.githubusercontent.com/83516020/155509287-dfd2fb09-da4b-489b-a20e-e99467609329.mp4
 
+Netlify Link:https://weather-app-api-javascript.netlify.app
+
 
 
