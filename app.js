@@ -1,7 +1,12 @@
 // api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
 const weatherApi={
+<<<<<<< HEAD
     key:weatherApikey,
+=======
+    key:"4926f8f088814d128c6f11d94facfe8a",
+    
+>>>>>>> f62ea08ca61e351e59d87f1a8d159fb95fbbf699
     baseUrl:"https://api.openweathermap.org/data/2.5/weather"
 }
 // fetch by id
@@ -87,4 +92,9 @@ function dateManage(dateArg){
     let date=dateArg.getDate();
     let day=days[dateArg.getDay()];
     return `${date} ${month} (${day}), ${year}`;
+<<<<<<< HEAD
 }
+=======
+
+}
+>>>>>>> f62ea08ca61e351e59d87f1a8d159fb95fbbf699
