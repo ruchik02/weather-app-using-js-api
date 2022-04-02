@@ -87,9 +87,7 @@ function dateManage(dateArg){
     let date=dateArg.getDate();
     let day=days[dateArg.getDay()];
     return `${date} ${month} (${day}), ${year}`;
-<<<<<<< HEAD
 }
-=======
 
 }
->>>>>>> f62ea08ca61e351e59d87f1a8d159fb95fbbf699
+
