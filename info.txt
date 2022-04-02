@@ -1,0 +1,18 @@
+This is a weather-app using javascript api 
+in this document there are three file index.html,style.css,app.js
+HTML PART
+in index.html is a layout of app 
+there is a main div in main div input box for search bar , location ,date and temperature .
+main div is outer div then search box then weather-body div ,in this div define city and date
+then weather-status div define temp ,min and max temp.
+CSS PART
+in style.css there is a style part of app
+in body we add images,and some styling so that the page look better and attractive.
+JAVASCRIPT PART
+in javascript
+we get key and url through openweathermap.org API for current weather report.
+then fetch id of searchbox then we add one condition if keycode ==13 means 
+we get the value.
+then some function like get weather ,show weather ,data manage this type function we define 
+we use let variable because let variable have a block scope and it can be updated but can't 
+redeclared again .

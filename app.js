@@ -1,8 +1,7 @@
 // api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
-
 const weatherApi={
-    key:"4926f8f088814d128c6f11d94facfe8a",
+    key:weatherApikey,
     baseUrl:"https://api.openweathermap.org/data/2.5/weather"
 }
 // fetch by id
@@ -45,7 +44,7 @@ function showWeatherReport(weather){
 
     // fetch date
     let date=document.getElementById('date');
-    let todayDate=new Date(); // full date but we 
+    let todayDate=new Date(); // full date but we want only dd//mm//yyyy and day
     date.innerText=dateManage(todayDate); 
 
     // fetch images dyanmically
@@ -88,5 +87,4 @@ function dateManage(dateArg){
     let date=dateArg.getDate();
     let day=days[dateArg.getDay()];
     return `${date} ${month} (${day}), ${year}`;
-
 }
