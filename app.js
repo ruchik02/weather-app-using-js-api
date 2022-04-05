@@ -1,7 +1,7 @@
 // api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
 const weatherApi={
-    key:weatherApikey,
+    key:"4926f8f088814d128c6f11d94facfe8a",
     baseUrl:"https://api.openweathermap.org/data/2.5/weather"
 }
 // fetch by id
